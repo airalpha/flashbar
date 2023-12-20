@@ -29,8 +29,8 @@ fun CustomSnackbar(
             Snackbar(
                 modifier = modifier.fillMaxWidth(),
                 shape = RoundedCornerShape(0.dp),
-                contentColor = MaterialTheme.colorScheme.onSecondary,
-                containerColor = MaterialTheme.colorScheme.secondary,
+                contentColor = MaterialTheme.colorScheme.onPrimary,
+                containerColor = MaterialTheme.colorScheme.primary,
                 action = {}
             ) {
                 Row(
